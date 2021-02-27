@@ -1,0 +1,13 @@
+age = 24
+print("Guess my age, you only have one chance")
+Guess = int(input("Guess: "))
+if Guess != age :
+   print("Wrong!")
+else:
+   print("Correct!")
+print("Guess the younger age one, that is younger then the age")
+Guess_younger = int(input("Guess_younger: ")) 
+if Guess_younger <= age:
+    print("!Correct")
+else:
+    print("!worng") 
